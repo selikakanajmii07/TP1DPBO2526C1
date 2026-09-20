@@ -5,10 +5,8 @@ public class Film {
     private String jamTayang;
     private String gambar;
 
-    // Constructor kosong
     public Film() {}
 
-    // Constructor berparameter
     public Film(int id, String judul, String genre, String jamTayang, String gambar) {
         this.id = id;
         this.judul = judul;
