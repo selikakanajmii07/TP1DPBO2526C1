@@ -9,7 +9,7 @@ Semua private, hanya bisa diakses lewat getter/setter.
 Flow C++, Java, dan Python
 - Semua objek Film disimpen dalam satu list/array.
 - Program menampilkan menu Tambah, Tampilkan, Cari, Update, Hapus,  dan Keluar berulang sampai user pilih Keluar.
-- Tiap pilihan manggil fungsi masing-masing:
+- Setiap pilihan memanggil fungsi masing-masing:
   > Tambah = membuat data baru lalu dimasukkan ke list
   > Tampilkan = looping list lalu menampilkan
   > Cari, Update, dan Hapus = mencari dulu data yang idnya cocok lalu diproses
