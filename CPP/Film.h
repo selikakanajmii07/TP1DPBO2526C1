@@ -13,10 +13,8 @@ private:
     string gambar;
 
 public:
-    // Constructor kosong
     Film();
 
-    // Constructor berparameter
     Film(int id, string judul, string genre, string jamTayang, string gambar);
 
     // Getter
@@ -31,11 +29,8 @@ public:
     void setGenre(string genre);
     void setJamTayang(string jamTayang);
     void setGambar(string gambar);
-
-    // Menampilkan data film ke layar
     void tampilkan();
 
-    // Destructor
     ~Film();
 };
 
