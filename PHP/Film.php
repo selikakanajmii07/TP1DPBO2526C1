@@ -6,7 +6,6 @@ class Film {
     private string $jamTayang;
     private string $gambar;
 
-    // Constructor
     public function __construct(int $id, string $judul, string $genre, string $jamTayang, string $gambar) {
         $this->id = $id;
         $this->judul = $judul;
